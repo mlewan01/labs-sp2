@@ -20,6 +20,13 @@ public class RepeatGausss {
             sum+=i;
             //System.out.println(i);
         }
-        System.out.println(sum);
+        int ii = 1;
+        int sum2 = 0;
+        while(ii<=j){
+            sum2+=ii;
+            ii++;
+        }
+        System.out.println("sum   : " + sum);
+        System.out.println("sum2   : " + sum2);
     }
 }
