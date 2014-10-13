@@ -24,15 +24,22 @@ public class Task3_GCD {
         System.out.println(gcd(x,y));
         
     }
+    /**
+     * function is calculating the Greatest Common Divisor of two given integers
+     * @param r first given integer 
+     * @param l second given integer
+     * @return the greatest common divisor
+     */
     public static int gcd(int r, int l){
+        int some = 0;
         System.out.println("inside GCD : " + r + "   " + l);
         if(r==0 || l==0){
-            return r==0? l:r;
+            return some = r<l?l:r;
         }
         if(r<=l){
-            gcd(r,l-r);
-        }else gcd(r-l, l);
+            some = gcd(r,l-r);
+        }else some = gcd(r-l, l);
         
-        return r==0? l:r;
+        return some;
     }
 }
