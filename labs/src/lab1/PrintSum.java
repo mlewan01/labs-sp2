@@ -22,5 +22,6 @@ public class PrintSum {
                 System.out.println("Sum = " + sum);
             }
         }while (n != 0);
+        // do while loop in this case will have at least one operation less!
     }
 }
