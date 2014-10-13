@@ -29,5 +29,14 @@ public class Task1_Gauss {
         }
         System.out.println("loop \"for\" sum   : " + sum);
         System.out.println("loop \"while\" sum   : " + sum2);
+        
+        System.out.println("\n Gauss method:  ");
+        System.out.println(gauss(j));
+    }
+    
+    public static int gauss(int i){
+        System.out.println("gauss: "+i);
+        if(i == 0) return 0;
+        return i + gauss(--i);
     }
 }
