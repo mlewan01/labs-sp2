@@ -13,6 +13,11 @@ public class Task9_Reverse {
         System.out.println("Word: " + word);
         System.out.println("Word reversed: " + reverse(word));
     }
+    /**
+     * will revers order of characters in a given string
+     * @param s string to revers order of characters
+     * @return string with reversed order of characters
+     */
     public static String reverse(String s){
         if(s.length() == 1) return s;
         char c = s.charAt(0);
