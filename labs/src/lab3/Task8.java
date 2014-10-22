@@ -8,7 +8,6 @@
 package lab3;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Task8 {
     public static void main(String[] args){
